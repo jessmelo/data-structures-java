@@ -4,6 +4,7 @@ public class LinkedList<T> {
     private Node head;
     private Node tail;
     private int size;
+
     private class Node {
         T data;
         Node next;
